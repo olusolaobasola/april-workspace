@@ -13,6 +13,7 @@ resource "aws_instance" "new_project" {
   tags = {
     Name        = "newproject"
     provisioner = "Terraform"
+    test        = "yes_no"
   }
 }
 
